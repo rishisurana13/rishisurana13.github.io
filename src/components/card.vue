@@ -74,4 +74,11 @@ button:hover .link {
 .link:hover {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 450px) {
+  .card {
+    height: 17em;
+    width: 20em;
+  }
+}
 </style>

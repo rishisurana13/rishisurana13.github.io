@@ -345,14 +345,11 @@ ul {
   }
 }
 @media only screen and (max-width: 450px) {
-  .skill-grp {
-    /*margin-left: -10%;*/
-  }
   .skill {
-    height: 20em;
-  }
-  .cards {
-    /*margin-left: -17.5%;*/
+    height: 18em;
+    width: 20em;
+    margin-left: 0%;
+    font-size: 100%;
   }
 }
 }
