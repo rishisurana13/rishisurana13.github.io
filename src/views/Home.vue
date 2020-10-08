@@ -14,9 +14,9 @@
 
     <!-- <hr> -->
     <br />
-    <div :class="proj">
+    <div id="proj-container">
       <div id="proj-title" class="">Projects</div>
-      <p>Highlighted projects. To see more visit the "Software" section.</p>
+      <p>To view more projects visit the "Software" section.</p>
       <br />
       <div class="cards" v-for="card in cards" :key="card.title">
         <Card
@@ -172,7 +172,6 @@ export default {
       this.show = true;
       this.changeAdj();
       setInterval(this.changeAdj, 3550);
-      setTimeout((this.proj = "projects2"), 10000);
     }, 2000);
   }
 };
@@ -217,6 +216,7 @@ hr {
 .cards {
   display: inline-flex;
   flex-wrap: wrap;
+  /*width: 95%;*/
 }
 .card {
   margin: 5%;
@@ -229,7 +229,8 @@ hr {
 .skill-grp {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 95%;
+  /*margin-left: 10%;*/
 }
 .skill {
   width: 20em;
@@ -258,7 +259,7 @@ hr {
   font-size: 2em;
   text-align: center;
   padding: 5px;
-  margin-top: 3.5em;
+  margin-top: 3em;
   font-weight: bold;
 }
 .skill:hover .list-title {
@@ -298,4 +299,62 @@ ul {
 .hover-msg {
   text-align: center;
 }
+
+
+@media only screen and (max-width: 902px) {
+  .skill-grp {
+    margin-left: 20%;
+  }
+
+@media only screen and (max-width: 769px) {
+  .p1 {
+    font-size: 250%;
+  }
+  .cards {
+    margin-left: 20%;
+  }
+  .skill-grp {
+    margin-left: 15%;
+  }
+  .skill {
+    /*width: 15em;*/
+    /*font-size: 12px;*/
+    padding: 10px 10px 10px 0px;
+  }
+  .list-title {
+    font-size: 1.5em;
+  }
+  li {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+  .p1 {
+    font-size: 200%;
+    width: 12em;
+  }
+  .cards {
+    margin-left: 0%;
+  }
+  .skill-grp {
+    margin-left: 5%;
+  }
+  .list-title {
+    margin-top: 5em;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .skill-grp {
+    /*margin-left: -10%;*/
+  }
+  .skill {
+    height: 20em;
+  }
+  .cards {
+    /*margin-left: -17.5%;*/
+  }
+}
+}
+
 </style>

@@ -54,7 +54,7 @@ hr {
   font-size: 1.5em;
 }
 .see-more {
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 button {
   background-color: transparent;

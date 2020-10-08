@@ -11,9 +11,8 @@
           >Resume</a
         >
         <router-link class="nav-item rl" to="/projects">Software</router-link>
-        <router-link class="nav-item rl" to="/digital-art"
-          >Digital Art</router-link
-        >
+        <!-- <router-link class="nav-item rl" to="/digital-art" -->
+          <!-- >Digital Art</router-link> -->
         <router-link class="nav-item rl" to="/contact">Contact</router-link>
       </div>
     </div>
@@ -45,7 +44,7 @@
   color: #bb9139;
 }
 .nav-item {
-  margin-left: 1em;
+  margin-left: 5%;
   position: sticky;
   text-decoration: none;
 }
@@ -54,6 +53,7 @@
 }
 .nav-items {
   margin-left: 27.5%;
+  display: inline-flex;
 }
 .title {
   font-size: 2em;
@@ -69,5 +69,35 @@
 }
 .rl {
   margin-top: 0.375em;
+}
+
+@media only screen and (max-width: 750px) {
+  .nav-items {
+    margin-left: 10%;
+    font-size:80%;
+  }
+  .title {
+    font-size: 120%;
+    margin-top: 0%;
+  }
+  #nav {
+    width: 90%;
+    height: 2em;
+  }
+  #app {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  #app {
+    width: 500px;
+    height: 100%;
+  }
+  #nav {
+    width: 80%;
+    /*height: 2em;*/
+  }
 }
 </style>
