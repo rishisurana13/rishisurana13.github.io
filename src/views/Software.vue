@@ -89,4 +89,5 @@ export default {
   margin: 3%;
   font-weight: normal;
 }
+
 </style>

@@ -51,7 +51,7 @@ h1 {
   grid-template-columns: auto auto auto auto;
   margin: 5%;
   margin-left: 37.5%;
-  margin-right: 40%;
+  /*margin-right: 40%;*/
   margin-top: 7.5em;
 }
 .grid-item {
@@ -83,5 +83,20 @@ a {
 }
 a:hover {
   color: white;
+}
+@media only screen and (max-width: 750px) {
+  .grid-container {
+    margin-left: 17.5%;
+  }
+  .grid-item {
+    /*width: 80%;*/
+    font-size: 80%;
+
+  }
+@media only screen and (max-width: 400px) {
+  .grid-container {
+    margin-left: 20%;
+  }
+}
 }
 </style>

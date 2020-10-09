@@ -83,4 +83,21 @@ a {
 a:hover {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 660px) {
+  .descriptive-card {
+  height: 100%;
+  width: 20em;
+}
+.card-img {
+  width: 275px;
+  height: 162.5px;
+}
+.see-more {
+  width: 10em;
+  height: 3em;
+  margin-top:10em;
+  margin-left: 6em;
+}
+}
 </style>
