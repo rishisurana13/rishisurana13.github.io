@@ -343,13 +343,16 @@ ul {
   .list-title {
     margin-top: 5em;
   }
+  .skill {
+
+    height: 19em;
+  }
 }
 @media only screen and (max-width: 450px) {
   .skill {
     height: 18em;
     width: 20em;
     margin-left: 0%;
-    font-size: 100%;
   }
 }
 }
