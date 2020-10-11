@@ -35,7 +35,7 @@ export default {
         {
           title: "Ecommerce API",
           url:
-            "https://github.com/rishisurana13/ai-security-system#instructions",
+            "https://github.com/rishisurana13/ecom_engine#ecommerce-engine-specialized",
           img:
             "https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/12/AdobeStock_113126068-Converted.jpg",
           description:
@@ -51,7 +51,7 @@ export default {
         },
         {
           title: "Surana Jewels",
-          url: "https://www.simple-school.com",
+          url: "",
           img:
             "https://i.ibb.co/yY2LPr8/Screen-Shot-2020-10-02-at-10-03-47-AM.png",
           description:
