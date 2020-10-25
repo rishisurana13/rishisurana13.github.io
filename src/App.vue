@@ -11,8 +11,7 @@
           >Resume</a
         >
         <router-link class="nav-item rl" to="/projects">Software</router-link>
-        <!-- <router-link class="nav-item rl" to="/digital-art" -->
-          <!-- >Digital Art</router-link> -->
+        <a class="nav-item rl" href="https://www.instagram.com/__rosho/?hl=en" target="_blank"> Art</a>
         <router-link class="nav-item rl" to="/contact">Contact</router-link>
       </div>
     </div>
