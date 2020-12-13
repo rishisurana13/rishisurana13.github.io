@@ -247,10 +247,10 @@ hr {
 .skill-list {
   opacity: 0;
 }
-.skill:hover .skill-list {
+.skill:hover .skill-list, .skill:active .skill-list {
   opacity: 1;
 }
-.skill:hover {
+.skill:hover, .skill:active{
   color: #bb9139;
   background-color: #202020;
 }
@@ -262,12 +262,12 @@ hr {
   margin-top: 3em;
   font-weight: bold;
 }
-.skill:hover .list-title {
+.skill:hover .list-title, .skill:active .list-title {
   margin-top: 0em;
   font-weight: bold;
 }
 
-.skill:hover .hr {
+.skill:hover .hr, .skill:active .hr {
   visibility: visible;
   border: 1px solid #bb9139;
 }

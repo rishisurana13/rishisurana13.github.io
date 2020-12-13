@@ -65,14 +65,14 @@ h1 {
   margin: 2%;
 }
 
-.grid-item:hover {
+.grid-item:hover, .grid-item:active{
   background-color: #bb9139;
   /*width: 80%;*/
 }
-.grid-item:hover .hide-hover {
+.grid-item:hover .hide-hover, .grid-item:active .hide-hover {
   display: none;
 }
-.grid-item:hover .hidden {
+.grid-item:hover .hidden, .grid-item:active .hidden {
   display: block;
 }
 .bold {
