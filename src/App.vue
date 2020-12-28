@@ -6,7 +6,7 @@
         <router-link class="nav-item rl" to="/">Home</router-link>
         <a
           class="nav-item rl"
-          href="https://drive.google.com/file/d/1LveIo8j319vBK-kPDidrnaQQd1kKKMHk/view?usp=sharing"
+          href="https://drive.google.com/file/d/1t0uS1hnSFhcsfMXbDnr5bXP_Xf83Of2c/view?usp=sharing"
           target="_blank"
           >Resume</a
         >
