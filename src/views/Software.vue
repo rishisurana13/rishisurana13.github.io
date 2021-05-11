@@ -33,6 +33,15 @@ export default {
             "A security system that runs on IoT devices using Artificial Intelligence to process camera footage to identify threats and notify the system admin of a threat in real time. The program records all footage and uploads it to an AWS S3 bucket every hour. Threats are recorded and uploaded separately."
         },
         {
+          title: "Flow",
+          url:
+            "https://chrome.google.com/webstore/detail/flow-tab-saver/amgcijjmanneecfaibhgbapogdldmalj",
+          img:
+            "https://lh3.googleusercontent.com/Sc0CuonzVsOVB7_9A3Lgbbk8GIS77R0c7f5A6mUhpHtd5DvAs-JHhd_NNWdaGBD3DMbWta89_pk=w640-h400-e365-rj-sc0x00ffffff",
+          description:
+            "Flow is your Chrome bookmark bar reimagined with additional functionality."
+        },
+        {
           title: "Ecommerce API",
           url:
             "https://github.com/rishisurana13/ecom_engine#ecommerce-engine-specialized",
