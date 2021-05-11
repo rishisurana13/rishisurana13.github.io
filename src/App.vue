@@ -1,12 +1,13 @@
 <template>
   <div id="app">
+
     <div id="nav">
       <div class="title">Rishi Surana</div>
       <div class="nav-items">
         <router-link class="nav-item rl" to="/">Home</router-link>
         <a
           class="nav-item rl"
-          href="https://drive.google.com/file/d/1t0uS1hnSFhcsfMXbDnr5bXP_Xf83Of2c/view?usp=sharing"
+          href="https://drive.google.com/file/d/116-AuCvRgU_60vU7q0kdyb9prY0FoCjg/view?usp=sharing"
           target="_blank"
           >Resume</a
         >
@@ -17,12 +18,14 @@
     </div>
     <router-view />
   </div>
+
 </template>
 
 <style>
 * {
   margin: 0;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

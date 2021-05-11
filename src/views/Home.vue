@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <div class="p1">
-      <transition name="fade"><span v-show="hello">Hello,</span></transition>
-      <div v-show="init">
+      <transition name="fade"><span id="hello" v-show="hello">Hello,</span></transition>
+      <div class= "intro-adjectives" v-show="init">
         I'm
         <transition name="fade">
           <span v-show="show" class="bold"
@@ -110,7 +110,7 @@ export default {
         "Rishi.",
         "a Software Engineer.",
         "a Digital Artist.",
-        " a Deep Learning enthusiast."
+        "a cryptocurrency enthusiast."
       ],
       extra: "",
       show: true,
@@ -187,10 +187,17 @@ hr {
 .home {
   color: #bb9139;
 }
+#hello {
+  margin-left: 40%;
+}
+.intro-adjectives {
+  margin-left: 20%;
+  text-align: left;
+}
 .p1 {
   text-align: left;
   margin-left: 5%;
-  margin-top: 1.5em;
+  margin-top: 10%;
   font-size: 5em;
   height: 5.8em;
 }
@@ -285,6 +292,7 @@ ul {
 
 #proj-title {
   font-size: 3em;
+  margin-top: 0%;
 }
 
 .d-learning {
