@@ -29,7 +29,7 @@
     </div>
     <!-- <hr> -->
 
-    <div id="skills" class="">Technical Skills</div>
+    <div class="skills">Technical Skills</div>
     <p><span class="bold hl">*Highlighted</span> = Most Experience</p>
 
     <div class="programming">
@@ -91,6 +91,19 @@
         </div>
       </div>
     </div>
+
+    <div class="skills">Technologies</div>
+    <br><br>
+    <div class="technologies">
+
+    <p><span class="bold">Web Development</span><br> React.js, Vue.js, Node.js, Express.js, jQuery, AJAX, HTML/CSS</p>
+    <br>
+    <p><span class="bold">Machine Learning</span><br> Tensorflow, Keras, Scikit-learn, numpy, pandas</p>
+    <br>
+    <p><span class="bold">Scripting and Automation</span><br> Python, Raspberry Pi, Bash</p>
+    <br><br><br>
+    </div>
+
   </div>
 </template>
 
@@ -131,15 +144,15 @@ export default {
         {
           title: "AI Security System",
           url:
-            "https://github.com/rishisurana13/ai-security-system#instructions",
+            "/projects",
           img:
             "https://www.securitysales.com/wp-content/uploads/2019/11/AdobeStock_145218141.jpg"
         },
         {
-          title: "Surana Jewels",
-          url: "https://www.simple-school.com",
+          title: "E-commerce Template",
+          url: "https://github.com/rishisurana13/ecommerce-engine",
           img:
-            "https://i.ibb.co/yY2LPr8/Screen-Shot-2020-10-02-at-10-03-47-AM.png"
+            "https://co-well.vn/wp-content/uploads/2019/12/why-ecommerce-is-important-with-business.png"
         }
       ]
     };
@@ -184,6 +197,10 @@ export default {
 hr {
   border: 1px solid #bb9139;
 }
+.technologies {
+  text-align: center;
+  font-size: 2em;
+}
 .home {
   color: #bb9139;
 }
@@ -191,7 +208,7 @@ hr {
   margin-left: 40%;
 }
 .intro-adjectives {
-  margin-left: 20%;
+  margin-left: 17.5%;
   text-align: left;
 }
 .p1 {
@@ -228,7 +245,7 @@ hr {
 .card {
   margin: 5%;
 }
-#skills {
+.skills {
   font-size: 3em;
   /*font-weight: bold;*/
   margin-top: 5%;

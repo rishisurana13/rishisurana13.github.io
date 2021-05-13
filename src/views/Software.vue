@@ -25,12 +25,11 @@ export default {
       cards: [
         {
           title: "AI Security System",
-          url:
-            "https://github.com/rishisurana13/ai-security-system#instructions",
+          url: null,
           img:
             "https://www.securitysales.com/wp-content/uploads/2019/11/AdobeStock_145218141.jpg",
           description:
-            "A security system that runs on IoT devices using Artificial Intelligence to process camera footage to identify threats and notify the system admin of a threat in real time. The program records all footage and uploads it to an AWS S3 bucket every hour. Threats are recorded and uploaded separately."
+            "A security system that runs on IoT devices using Artificial Intelligence to process camera footage to identify threats and notify the system admin of a threat in real time. The program records all footage and uploads it to an AWS S3 bucket every hour. Threats are recorded and uploaded separately. Demo available on request."
         },
         {
           title: "Flow",
@@ -44,9 +43,9 @@ export default {
         {
           title: "Ecommerce API",
           url:
-            "https://github.com/rishisurana13/ecom_engine#ecommerce-engine-specialized",
+            "https://github.com/rishisurana13/ecommerce-engine",
           img:
-            "https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/12/AdobeStock_113126068-Converted.jpg",
+            "https://co-well.vn/wp-content/uploads/2019/12/why-ecommerce-is-important-with-business.png",
           description:
             "A standard E-commerce API with endpoints for Products, Orders, Authentication, Admin, and Payments. Includes cart and checkout functionality, and Stripe integration for the payment gateway."
         },
@@ -60,7 +59,7 @@ export default {
         },
         {
           title: "Surana Jewels",
-          url: "",
+          url: "https://github.com/rishisurana13/ecom_engine",
           img:
             "https://i.ibb.co/yY2LPr8/Screen-Shot-2020-10-02-at-10-03-47-AM.png",
           description:

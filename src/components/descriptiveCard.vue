@@ -35,9 +35,11 @@ export default {
   border-radius: 5px;
   margin: 1%;
   margin-left: 2%;
+  filter: blur(0px);
 }
 .descriptive-card:hover {
   color: #bb9139;
+
   background-color: #202020;
 }
 .description {
